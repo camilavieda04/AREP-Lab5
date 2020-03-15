@@ -8,7 +8,7 @@ En este tutorial podrá aprender como se crea y como se despliega:
 ## PATRONES ARQUITECTURALES
 Una empresa lo ha contratado para capacitar a sus ingenieros en la construcción de sitios web dinámicos sobre Amazon Web Services. Para esto usted decidió construir un tutorial y un video que permita a los ingenieros hacer lo siguiente:
 
-1. DESPLEGAR UN SITIO ESTÁTICO USANDO S3.
+## 1. DESPLEGAR UN SITIO ESTÁTICO USANDO S3.
 
       1.1 Entramos a la consola de AWS y en la parte de servicios escribimos S3.
       
@@ -65,6 +65,52 @@ Una empresa lo ha contratado para capacitar a sus ingenieros en la construcción
       1.13 En la siguiente pantalla podemos ver la url del objeto y la imagen que se subió. 
      
       ![Captura15](https://user-images.githubusercontent.com/48154086/76712721-37ee5200-66e9-11ea-8323-dab4c5b214fe.PNG)
+
+
+## 2. Desplegar un formulario dinámico usando EC2
+
+      2.1 Volvemos a la consola principal de servicios de AWS y buscamos la opción EC2. 
+      
+      ![CapturaE1](https://user-images.githubusercontent.com/48154086/76713246-3faff580-66ed-11ea-851e-a0aab47596e3.PNG)
+      
+      2.2  En la parte izquierda de nuestra pantalla encontraremos el siguiente menú. Damos click en la opción "Instances" y creamos una nueva instancia. 
+      
+      
+      ![CapturaE2](https://user-images.githubusercontent.com/48154086/76713247-4179b900-66ed-11ea-8552-e7af30868f1e.PNG)
+      
+      ![CapturaE3](https://user-images.githubusercontent.com/48154086/76713249-42124f80-66ed-11ea-9466-4c9b19341d3d.PNG)
+      
+      2.3 Escogemos la máquina Amazon Linux 2 AMI.
+      
+      ![CapturaE4](https://user-images.githubusercontent.com/48154086/76713250-42aae600-66ed-11ea-9dbc-4cee1837830a.PNG)
+      
+      2.4 Escogemos el tipo de instancia y tomamos la que sale por defecto. 
+      
+      ![CapturaE5](https://user-images.githubusercontent.com/48154086/76713251-42aae600-66ed-11ea-8dd3-0f218312fcc0.PNG)
+      
+      2.5 Para terminar de construir la instancia damos click en la opción lunch. 
+      
+      ![CapturaE6](https://user-images.githubusercontent.com/48154086/76713252-43437c80-66ed-11ea-87b1-aef3a7ead502.PNG)
+      
+      2.6 A continuación creamos un par de llaves en mi caso se llamaran "sarahv" luego damos click en la opción Download Key Pair y luego Launch Instances. 
+      
+      ![CapturaE7](https://user-images.githubusercontent.com/48154086/76713253-4474a980-66ed-11ea-82f6-e10451002666.PNG)
+      
+      ![CapturaE8](https://user-images.githubusercontent.com/48154086/76713254-450d4000-66ed-11ea-80d2-0673b2a959c5.PNG)
+      
+      2.7 Finalmente vemos todas las instancias y ponemos a correr la que fue creada recientemente.
+      
+      ![CapturaE9](https://user-images.githubusercontent.com/48154086/76713256-45a5d680-66ed-11ea-8f46-ca9b7abe4c5a.PNG)
+      
+      ![CapturaE10](https://user-images.githubusercontent.com/48154086/76713261-49395d80-66ed-11ea-8d97-2b3c256582a0.PNG)
+      
+## 3. Enlazar el formulario a una base de datos relacional o no-relacional, para almacenar y traer los datos almacenados. Use servicios de base de datos de AWS.
+
+
+      
+      
+      
+      
       
       
 
