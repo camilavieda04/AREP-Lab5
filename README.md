@@ -106,6 +106,47 @@ Una empresa lo ha contratado para capacitar a sus ingenieros en la construcción
       
 ## 3. Enlazar el formulario a una base de datos relacional o no-relacional, para almacenar y traer los datos almacenados. Use servicios de base de datos de AWS.
 
+3.1 Para crear la base de datos buscamos en el menú de servicios de AWS "RDS" el cual es el administrador de bases de datos relacionales.
+
+![CapturaR1](https://user-images.githubusercontent.com/48154086/76713790-36c12300-66f1-11ea-891f-628e8e5951a1.PNG
+
+3.2 A continuación damos click en la opción "Create Database" 
+
+![CapturaR2](https://user-images.githubusercontent.com/48154086/76713791-3759b980-66f1-11ea-940b-5725bec8582b.PNG)
+
+3.3 Escogemos las siguientes opciones de configuracion de nuestra base de datos:
+
+   - Easy Create 
+   
+   ![CapturaR4](https://user-images.githubusercontent.com/48154086/76713794-388ae680-66f1-11ea-904b-639e3c40ff2e.PNG)
+   
+   - Escogemos el motor de base de datos en nuestro caso Postgresql
+ 
+   ![CapturaR5](https://user-images.githubusercontent.com/48154086/76713795-388ae680-66f1-11ea-9d7c-51edc7f2f747.PNG)
+
+   - Tamaño "Free tier"
+   
+   ![CapturaR6](https://user-images.githubusercontent.com/48154086/76713796-39237d00-66f1-11ea-8618-a92fbfc496b7.PNG)
+   
+   - Configuramos el nombre y la clave de la base de datos 
+   
+   ![CapturaR7](https://user-images.githubusercontent.com/48154086/76713797-3a54aa00-66f1-11ea-8aac-afa7b6d72c77.PNG)
+   
+3.4 Finalmente damos click en la opción "Create Database"
+
+   ![CapturaR8](https://user-images.githubusercontent.com/48154086/76713799-3aed4080-66f1-11ea-9fc4-086a76106832.PNG)
+   
+
+3.5 Podemos ver la configuración de nuestra base de datos creada recientemente.
+
+![CapturaR10](https://user-images.githubusercontent.com/48154086/76713803-3c1e6d80-66f1-11ea-862d-6947a1a5bd7a.PNG)
+
+![CapturaR11](https://user-images.githubusercontent.com/48154086/76713804-3cb70400-66f1-11ea-8dac-32d70f538685.PNG)
+
+
+   
+   
+
 
       
       
