@@ -1,10 +1,5 @@
 # AREP-AWS PATRONES ARQUITECTURALES S3, EC2 Y RDS
 
-En este tutorial podrá aprender como se crea y como se despliega:
-- Un contenido estatico en S3.
-- Una aplicación desarrollada en Maven y conectada a una base de datos RDS postgresql.
-- Una base de datos en eRDS con postgresql.
-
 ## PATRONES ARQUITECTURALES
 Una empresa lo ha contratado para capacitar a sus ingenieros en la construcción de sitios web dinámicos sobre Amazon Web Services. Para esto usted decidió construir un tutorial y un video que permita a los ingenieros hacer lo siguiente:
 
@@ -144,23 +139,33 @@ Una empresa lo ha contratado para capacitar a sus ingenieros en la construcción
 ![CapturaR11](https://user-images.githubusercontent.com/48154086/76713804-3cb70400-66f1-11ea-8dac-32d70f538685.PNG)
 
 
+## 4. Configurar un VPC para gestionar la seguridad y los permisos de acceso a sus servidores.
    
-   
+4.1 A continuación configuraremos la seguridad de la instancia que se creo en el Paso 2 de EC2 con el fin de abrir el puerto 5432 Postgresql para que pueda enviar y recibir información por medio de este.
 
+Ponemos a correr  en la instancia
 
-      
-      
-      
-      
-      
-      
+![CapturaV1](https://user-images.githubusercontent.com/48154086/76714162-915b7e80-66f3-11ea-8bd9-4be2b2460d37.PNG)
 
-      
-      
-      
-      
+4.2 Seleccionamos en security groups "launch-wizard-6"
 
+![CapturaV2](https://user-images.githubusercontent.com/48154086/76714163-91f41500-66f3-11ea-94e4-91eff2c3ed3a.PNG)
 
+4.3 Creamos un grupo de seguridad.
+
+![CapturaV3](https://user-images.githubusercontent.com/48154086/76714165-93bdd880-66f3-11ea-8e4c-71c505070327.PNG)
+
+4.4 Configuramos Inbound Rules con PostgreSQL 
+
+![CapturaV4](https://user-images.githubusercontent.com/48154086/76714167-94566f00-66f3-11ea-8cc5-20b0878218e5.PNG)
+
+4.5 Configuramos Outbound Rules con PostgreSQL
+
+![CapturaV5](https://user-images.githubusercontent.com/48154086/76714169-96b8c900-66f3-11ea-8fb7-ef386e8197d3.PNG)
+
+4.6 Finalmente podemos ver como quedo creado nuestro grupo de seguridad.
+
+![Capturav6](https://user-images.githubusercontent.com/48154086/76714171-97515f80-66f3-11ea-8625-2e0ccdb7e648.PNG)
 
 ## Autor 
 
